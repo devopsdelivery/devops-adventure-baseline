@@ -1,6 +1,6 @@
-# DevOps Adventure Baseline 🚗
+# DevOps Adventure | Team Baseline 🚗
 
-### A Vehicle Dealership Application
+### Vehicle Dealership Application
 
 ---
 
