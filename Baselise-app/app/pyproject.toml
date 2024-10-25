@@ -5,7 +5,8 @@ description = ""
 authors = ["goncalo batista <gnccb07@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "./src" }
+    { include = "./src" ,
+     include = "./postgres" }
 ]
 
 [tool.poetry.dependencies]

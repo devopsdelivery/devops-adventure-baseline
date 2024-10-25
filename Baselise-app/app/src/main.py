@@ -1,5 +1,8 @@
+#Baselise-app/app/src/main.py
+
 from fastapi import FastAPI
 from src.db import create_table, insert_item, get_items
+import uvicorn 
 
 app = FastAPI()
 
@@ -36,3 +39,6 @@ async def write():
     result = await insert_item('item', 'description')
     
     return {'result': result}
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", port=5000, log_level="info")

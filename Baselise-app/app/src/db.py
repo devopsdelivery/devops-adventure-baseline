@@ -1,5 +1,7 @@
+# Baselise-app/app/src/db.py
+
 import asyncpg
-from src.config import POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_HOST
+from .config import POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_HOST
 
 
 async def connect():

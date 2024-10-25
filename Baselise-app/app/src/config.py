@@ -1,4 +1,4 @@
-# app/src/config.py
+# Baselise-app/app/src/config.py
 
 from decouple import config
 
